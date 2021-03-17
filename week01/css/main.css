@@ -1,6 +1,9 @@
 body {
     padding: 4rem;
     white-space: nowrap;
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/462/776/983/nature-sea-underwater-water-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .poem {
@@ -21,11 +24,13 @@ body {
     text-align: left;
     font-size: 3rem;
     font-weight: 800;
+    color: rgb(73, 73, 170);
 }
 
 .text {
     width: 50%;
-    font-size: 1.125rem;
+    font-size: 1.300rem;
+    font-weight: 600;
     line-height: 2rem;
 }
 
