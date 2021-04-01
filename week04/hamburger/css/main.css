@@ -1,0 +1,9 @@
+body{
+    background: #f6f5f0;
+}
+/* header */
+header{
+    width: 100px;
+    height: 60px;
+    background: black;
+}
