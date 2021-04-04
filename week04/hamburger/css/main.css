@@ -1,9 +1,44 @@
+header{
+    background: #000;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+/* COMMON */
 body{
     background: #f6f5f0;
+    height: 3000px;
 }
-/* header */
-header{
-    width: 100px;
-    height: 60px;
-    background: black;
+
+.material-icons{
+    color: #f6f5f0;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+header .material-icons{
+    position: absolute;
+}
+
+header .material-icons#btn__open{
+    display: block;
+}
+
+header .material-icons#btn__close{
+    display: none;
+}
+
+nav {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    height: calc(100vh - 60px);
+    width: 300px;
+    background: #000;
+    transform: translateX(-100%);
+    transition: .4s;
 }
