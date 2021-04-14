@@ -1,50 +1,156 @@
 body{
     font-family: 'Noto Sans KR', sans-serif;
+    width: 100%;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.4;
     background: #f1f1f1;
 }
 
-/* 햄버거 아이콘 */
 .material-icons{
-    color: rgb(90, 90, 90);
-    font-size: 32px;
     cursor: pointer;
-    margin-left: 32px;
-
 }
 
 /* 헤더 */
 header{
-    background: #ffffff;
-    height: 75px;
-    width: 100%;
+    /* #ffffff */
+    background: #ac4444;
+    height: 56px;
+    width: 1390px;
+    margin: 0 auto;
     display: flex;
-    position: fixed;
+    position: relative;
+}
+
+/* 첫번째 섹션 */
+header>ul.first-section{
+    background: blue;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    display: flex;
     align-items: center;
 }
 
+header ul.first-section li{
+    float: left;
+}
+
+/* 햄버거 아이콘 */
+header ul.first-section li .material-icons{
+    color: rgb(90, 90, 90);
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+/* 유튜브 로고 이미지 */
+header ul.first-section li img{
+    height: 29px;
+    margin-right: 32px;
+}
+
+/* 네비게이션바 */
 nav{
     position: absolute;
     height: 100%;
-    width: 320px;
+    width: 222px;
     display: flex;
-    top: 22px;
+    top: 0px;
     background: #ffffff;
     transform: translateX(-100%);
     transition: .2s;
 }
 
-#search{
-    height:43%;
-    width: 40%;
-    margin-left: 22.5%;
-    font-size: 20px;
-    color: gray;
+/* 햄버거 아이콘 */
+nav span.material-icons{
+    color: rgb(90, 90, 90);
+    font-size: 25px;
+    margin: 15px 20px 0 25px;
 }
+
+/* 유튜브 로고 이미지 */
+nav img{
+    height: 29px;
+    margin: 12px 32px 0 0;
+}
+
+
+/* 네비게이션 리스트 */
+nav ul{
+    position: absolute;
+    margin-top: 60px;
+}
+
+nav ul li{
+    /* margin-bottom: 30px; */
+    padding: 10px 60px;
+    background: chocolate;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #030303;
+}
+
+
+/* * {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+} */
+
+/* 두번째 섹션 */
+header>ul.second-section{
+    background: chartreuse;
+    /* display: flex;
+    align-items: center; */
+}
+
+
+/* 검색창 */
+header ul.second-section li .search{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 802px;
+    height: 50px;
+    outline: none;
+}
+
+.search input{
+    border: 1px solid gray;
+    outline: none;
+    position: absolute;
+}
+
+#search__box{
+    height:30px;
+    width: 600px;
+    font-size: 20px;
+}
+
 
 .keyboard {
     width: 25px;
-    
+    outline: none;
+    position: absolute;
+    left: 10px;
 }
+
+button{
+    height: 32px;
+    width: 65px;
+}
+
+#search-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 27px;
+}
+
