@@ -186,15 +186,21 @@ button#search-btn{
 .third-section{
     position: absolute;
     right: 0px;
+    display: flex;
 }
 
-.third-section li{
-    display: inline;
-    margin-right: 15px;
-}
 
 .third-section .material-icons{
     font-size: 25px;
+}
+
+.third-section .dot{
+    display: flex;
+    align-items: center;
+}
+
+.third-section .dot .material-icons{
+    padding-right: 20px;
 }
 
 .third-section .login--btn{
@@ -203,6 +209,7 @@ button#search-btn{
     width: 100px;
     height: 40px;
 }
+
 
 .third-section li button .material-icons{
     color: #065fd4;
