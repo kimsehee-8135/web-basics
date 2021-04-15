@@ -12,43 +12,157 @@
   <script defer src="./js/index.js"></script>
 </head>
 <body>
-    <header>
-        <ul class="first-section">
-          <li>
-            <span id="btn--open" class="material-icons">
-              menu
-              </span>
-          </li>
-          <li>
-            <img src="./youtube header.png" alt="youtube_logo">
-          </li>
-        </ul>
-        <ul class="second-sectioin">
-        <!-- <li>
-          <div class="search">
-            <input id="search__box" type="text" name="name" placeholder="검색" >
-            <img class="keyboard" src="https://www.gstatic.com/inputtools/images/tia.png" alt="keyboard">
-          </div>
+  <!-- 헤더 -->
+  <header>
+    <!-- 첫번째 섹션 -->
+    <ul class="first-section">
+      <li>
+        <span id="btn--open" class="material-icons">
+          menu
+          </span>
+      </li>
+      <li>
+        <img src="./youtube header.png" alt="youtube_logo">
+      </li>
+      <!-- 두번째 섹션 -->
+      <ul class="second-section">
+        <li class="search">
+          <form action="http://www.youtube.com/results" method="GET">
+            <input name="search_query" id="search__box" placeholder="검색">
+            <!-- <img class="keyboard" src="https://www.gstatic.com/inputtools/images/tia.png" alt="keyboard"> -->
+          </form>
+        </li>
+        <li>
           <button id="search-btn">
             <span class="material-icons">
               search
               </span>
           </button>
-        </li> -->
+        </li>
+        <li>
+          <span class="material-icons">
+            keyboard_voice
+            </span>
+        </li>
       </ul>
-    </header>
-    <nav id="side__menu">
-      <span id="btn--close" class="material-icons">
-        menu
-        </span>
-      <img src="./youtube header.png" alt="youtube_logo">
+    </ul>
+    <!-- 세번째 섹션 -->
+    <ul class="third-section">
+      <li>
+        <span class="material-icons">
+          apps
+          </span>
+      </li>
+      <li>
+        <span class="material-icons">
+          more_vert
+          </span>
+      </li>
+      <li>
+        <a href="">
+          <button class="login--btn">
+            <span class="material-icons">
+              account_circle
+              </span>
+            <div class="login_text">로그인</div>
+          </button>
+        </a>
+      </li>
+    </ul>
+  </header>
+  <!-- 네비게이션바 -->
+  <nav id="side__menu">
+    <span id="btn--close" class="material-icons">
+      menu
+      </span>
+    <img src="./youtube header.png" alt="youtube_logo">
+    <ul class="side__list">
+      <li class="list_first">
+        <span class="material-icons">
+          home
+          </span>
+        <a href="">홈</a>
+      </li>
+      <li class="list_first">
+        <span class="material-icons">
+          explore
+          </span>
+          <a href="">탐색</a>
+      </li>
+      <li class="list_first list_p">
+        <span class="material-icons">
+          subscriptions
+          </span>
+        <a href="">구독</a>
+      </li>
+      <li class="list_first">
+        <span class="material-icons">
+          shop_2
+          </span>
+        <a href="">보관함</a>
+      </li>
+      <li class="list_first list_p">
+        <span class="material-icons">
+          history
+          </span>
+        <a href="">시청 기록</a>
+      </li>
+      <li class="list_second">
+        <div class="login_text">
+          로그인하면 동영상에 좋아요를 표시하고 댓글을 달거나 구독할 수 있습니다.
+        </div>
+      </li>
+      <li class="list_third">
+        <a href="">
+          <button class="login--btn">
+            <span class="material-icons">
+              account_circle
+              </span>
+            <div class="login_text">로그인</div>
+          </button>
+        </a>
+      </li>
+    </ul>  
+  </nav>
+  <!-- 본문 왼쪽 섹션 -->
+  <section class="wrapper">
+    <aside id="left">
       <ul>
-        <li><a href="">홈</a></li>
-        <li><a href="">탐색</a></li>
-        <li><a href="">구독</a></li>
-        <li><a href="">보관함</a></li>
-        <li><a href="">시청 기록</a></li>
+        <li>
+          <span class="material-icons">
+            home
+            <p class="left_text">홈</p>
+            </span>
+        </li>
+        <li>
+          <span class="material-icons">
+            explore
+            <p class="left_text">탐색</p>
+          </span>
+        </li>
+        <li>
+          <span class="material-icons">
+            subscriptions
+            <p class="left_text">구독</p>
+          </span>
+        </li>
+        <li>
+          <span class="material-icons">
+            shop_2
+            <p class="left_text">보관함</p>
+          </span>  
+        </li>
+        <li>
+          <span class="material-icons">
+            history
+            <p class="left_text">시청기록</p>
+          </span>
+        </li>
       </ul>  
-    </nav>
+    </aside>
+    <main>
+      <div></div>
+    </main>
+  </section>
 </body>
 </html>
