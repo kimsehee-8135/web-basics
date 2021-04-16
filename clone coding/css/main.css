@@ -1,5 +1,5 @@
 body{
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     font-size: 16px;
     font-weight: 400;
@@ -112,38 +112,40 @@ nav ul li a{
     position: relative;
 }
 
-nav ul li.list_second{
+nav ul div.list_second{
     font-size: 14px;
     height: 90px;
     display: flex;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 10px;
+    margin-left: 15px;
 }
 
-nav ul li.list_third{
+nav ul div.list_third{
     display: flex;
     padding: 0 20px;
 }
 
 
-nav ul li .login--btn{
+nav ul div .login--btn{
     color: #065fd4;
     border: #065fd4 1px solid;
-    width: 100px;
-    height: 40px;
+    width: 95px;
+    height: 35px;
     float: left;
     display: flex;
     align-items: center;
+    margin-left: 5px;
 }
 
-nav ul li .login--btn .material-icons{
+nav ul div .login--btn .material-icons{
     color: #065fd4; 
     position: absolute;
     display: inline;
     margin-left: 0;
 }
 
-nav ul li .login--btn .login_text{
+nav ul div .login--btn .login_text{
     display: inline;
     margin-left: 30px;
 }
@@ -156,24 +158,29 @@ ul.second-section{
 
 
 #search__box{
-    height:23px;
+    height:26px;
     width: 565px;
     font-size: 15px;
+    color: #ccc;
+    border: #ccc 1px solid;
 }
 
 
 button#search-btn{
-    height: 29px;
+    height: 30px;
     width: 66px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: #ccc 1px solid;
+    border-left: none;
 }
 
 #search-btn .material-icons{
     text-align: center;
     padding-left: 22px;
     font-size: 20px;
+    
 }
 
 .second-section .material-icons{
@@ -232,11 +239,10 @@ section.wrapper {
 /* 왼쪽 섹션 */
 aside#left{
     width: 5%;
-    height: 733px;
+    height: 100vh;
     float: left;
     display: flex;
     justify-content: center;
-    /* background: grey; */
 
 }
 
