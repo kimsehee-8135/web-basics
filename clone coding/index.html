@@ -48,7 +48,7 @@
           </button>
         </li>
         <li>
-          <span class="material-icons">
+          <span class="material-icons mic">
             keyboard_voice
             </span>
         </li>
@@ -57,12 +57,16 @@
     <!-- 세번째 섹션 -->
     <ul class="third-section">
       <li class="dot">
-        <span class="material-icons">
-          apps
-          </span>
-        <span class="material-icons">
+        <div>
+          <span class="material-icons">
+            apps
+            </span>
+        </div>
+        <div>
+          <span class="material-icons">
             more_vert
           </span>
+        </div>
       </li>
       <li class="login_list">
         <a href="">
@@ -129,8 +133,10 @@
         </a>
       </div>
       <div class="list_fourth">
-        인기 
-        <span>YOUTUBE</span>
+        <span class="first">
+          인기
+        </span> 
+        <span class="bord">YOUTUBE</span>
       </div>
       <li class="list_first">
         <img src="./image/music.jpg" alt="music">
@@ -164,11 +170,27 @@
         <img src="./image/video360.jpg" alt="video360">
         <a href="">360° 동영상</a>
       </li>
-      <li class="list_first list_fifth">
+      <li class="list_first list_fifth list_bottom">
         <span class="material-icons">
           add_circle
           </span>
         <a href="">채널 탐색</a>
+      </li>
+      <div class="list_fourth">
+        <span class="bord">
+          YOUTUBE
+        </span> 
+        <span class="second">
+          더보기
+        </span>
+      </div>
+      <li class="list_first">
+        <yt-icon class="guide-icon style-scope ytd-guide-entry-renderer"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon"><path fill-rule="nonzero" d="M21.78 8s-.2-1.37-.8-1.97c-.75-.8-1.6-.8-2-.85C16.2 4.98 12 5 12 5s-4.18-.02-6.97.18c-.4.05-1.24.05-2 .85-.6.6-.8 1.97-.8 1.97s-.2 1.63-.23 3.23v1.7c.03 1.6.23 3.2.23 3.2s.2 1.4.8 2c.76.8 1.75.76 2.2.85 1.57.15 6.6.18 6.77.18 0 0 4.2 0 7-.2.38-.04 1.23-.04 2-.84.6-.6.8-1.98.8-1.98s.2-1.6.2-3.22v-1.7c-.02-1.6-.22-3.22-.22-3.22zm-11.8 7V9.16l5.35 3.03L9.97 15z" class="style-scope yt-icon"></path></g></svg></yt-icon>
+        <a href="">YouTube Premium</a>
+      </li>
+      <li class="list_first">
+        <yt-icon class="guide-icon style-scope ytd-guide-entry-renderer"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon"><path d="M16.94 6.91l-1.41 1.45c.9.94 1.46 2.22 1.46 3.64s-.56 2.71-1.46 3.64l1.41 1.45c1.27-1.31 2.05-3.11 2.05-5.09s-.78-3.79-2.05-5.09zM19.77 4l-1.41 1.45C19.98 7.13 21 9.44 21 12.01c0 2.57-1.01 4.88-2.64 6.54l1.4 1.45c2.01-2.04 3.24-4.87 3.24-7.99 0-3.13-1.23-5.96-3.23-8.01zM7.06 6.91c-1.27 1.3-2.05 3.1-2.05 5.09s.78 3.79 2.05 5.09l1.41-1.45c-.9-.94-1.46-2.22-1.46-3.64s.56-2.71 1.46-3.64L7.06 6.91zM5.64 5.45L4.24 4C2.23 6.04 1 8.87 1 11.99c0 3.13 1.23 5.96 3.23 8.01l1.41-1.45C4.02 16.87 3 14.56 3 11.99s1.01-4.88 2.64-6.54z" class="style-scope yt-icon"></path><circle cx="12" cy="12" r="3" class="style-scope yt-icon"></circle></g></svg><!--css-build:shady--></yt-icon>
+        <a href="">실시간</a>
       </li>
       <li class="list_first list_fifth">
         <span class="material-icons">
@@ -199,17 +221,17 @@
           <div class="footer_first">
             <a href="">정보</a>
             <a href="">보도자료</a>
-            <a href="">저작권</a>
+            <a href="">저작권</a><br>
             <a href="">문의하기</a>
             <a href="">크리에이터</a>
-            <a href="">광고</a>
+            <a href="">광고</a><br>
             <a href="">개발자</a>
           </div>
-          <div class="footer_second">
+          <div class="footer_first">
             <a href="">약관</a>
-            <a href="">개인정보처리방침</a>
-            <a href="">정책 및 안전</a>
-            <a href="">YouTube 작동의 원리</a>
+            <a href="">개인정보처리방침</a><br>
+            <a href="">정책 및 안전</a><br>
+            <a href="">YouTube 작동의 원리</a><br>
             <a href="">새로운 기능 테스트하기</a> 
           </div>
           <div class="footer_third">
@@ -262,8 +284,149 @@
         </li>
       </ul>  
     </aside>
+    <!-- 메인 -->
     <main>
-      
+        <div class="main_items">
+          <ul>
+            <li>
+              <img src="./image/main_1.webp" alt="main_1" class="main_1">
+              <div class="profile">
+                <img src="./image/profile_1.jpg" alt="profile_1">
+              </div>
+              <div class="video">
+                <p class="video_title">IU Coin Lyrics (아이유 Coin 가사) [Color Coded Lyrics/Han/Rom/Eng]</p>
+                <div class="video_contents">
+                  <p>Lemoring</p>
+                  <!-- 인증됨 -->
+                  <p>조회수 47만회 3주 전</p>
+                </div>
+              </div>
+            </li>
+          </ul>    
+        </div>
+        <div class="main_items">
+          <ul>
+            <li>
+              <img src="./image/main_2.webp" alt="main_2">
+              <div class="profile">
+                <img src="./image/profile_2.jpg" alt="profile_2">
+              </div>
+              <div class="video">
+                <p class="video_title">빈첸 - FLYING HIGH WITH U [FLYING HIGH WITH U] | Lyrics/가사</p>
+                <div class="video_contents">
+                  <p>알파</p>
+                  <!-- 인증됨 -->
+                  <p>조회수 69만회 1개월 전</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      <div class="main_items">
+        <ul>
+          <li>
+            <img src="./image/main_3.webp" alt="main_3">
+            <div class="profile">
+              <img src="./image/profile_3.jpg" alt="profile_3">
+            </div>
+            <div class="video">
+              <p class="video_title">[ENG] [고등래퍼4/8회] 김우림 - Cold (Feat. 수퍼비) @ 세미파이널 | Mnet210409 방송</p>
+              <div class="video_contents">
+                <p>Mnet Official</p>
+                <!-- 인증됨 -->
+                <p>조회수 80만회 1주 전</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="main_items">
+        <ul>
+          <li>
+            <img src="./image/main_4.webp" alt="main_4">
+            <div class="profile">
+              <img src="./image/profile_4.jpg" alt="profile_4">
+            </div>
+            <div class="video">
+              <p class="video_title">[4K][special] 아이유(IU)의 킬링보이스를 라이브로! / 하루 끝, 너의 의미, 스...</p>
+              <div class="contents">
+                <p>딩고 뮤직 / dingo music</p>
+                <!-- 인증됨 -->
+                <p>조회수 1312만회 2주 전</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="main_items">
+        <ul>
+          <li>
+            <img src="./image/main_5.webp" alt="main_5">
+            <div class="profile">
+              <img src="./image/profile_2.jpg" alt="profile_5">
+            </div>
+            <div class="video">
+              <p class="video_title">Lil Nekh (릴네크) - Red Light (Feat. BIG Naughty) (Prod. 코드 쿤스트) [고등...</p>
+              <div class="video_contents">
+                <p>알파</p>
+                <!-- 인증됨 -->
+                <p>조회수 9.6만회 4일 전</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="main_items">
+        <ul>
+          <li>
+            <img src="./image/main_6.webp" alt="main_6">
+            <div class="profile">
+              <img src="./image/profile_6.jpg" alt="profile_6">
+            </div>
+            <div class="video">
+              <p class="video_title">Ep.3 라이브 | 데뷔 후 처음 부르는 UNPRETTY RAPSTAR 명곡 | 여자아이들...</p>
+              <div class="video_contents">
+                <p>모두의 오디션</p>
+                <p>조회수 22만회 1개월 전</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="main_items">
+        <ul>
+          <li>
+            <img src="./image/main_7.webp" alt="main_7">
+            <div class="profile">
+              <img src="./image/profile_7.jpg" alt="profile_7">
+            </div>
+            <div class="video">
+              <p class="video_title">배그자매)) 배그 한판|(여자)아이들| (자막x)</p>
+              <div class="video_contents">
+                <p>m미쳤어엉</p>
+                <p>조회수 1.9천회 5개월 전</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="main_items">
+        <ul>
+          <li>
+            <img src="./image/main_8.webp" alt="main_8">
+            <div class="profile">
+              <img src="./image/profile_8.jpg" alt="profile_8">
+            </div>
+            <div class="video">
+              <p class="video_title">리플레이 : 다시 시작되는 순간 OST 모음 (가사포함) | 웹드라마 OST 플레이리...</p>
+              <div class="video_contents">
+                <p>밤공원</p>
+                <p>조회수 287회 1개월 전</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>    
     </main>
   </section>
 </body>
