@@ -1,0 +1,53 @@
+/* COMMON */
+
+.inner {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.material-icons {
+    font-size: 50px;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    background: black;
+    color: #fff;
+    height: 80px;
+}
+
+header>.inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header #hamburger__icon {
+    display: none;
+}
+
+
+header ul.menu li {
+    float: left;
+    font-size: 50px;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+header ul.menu li:last-child {
+    padding: 0;
+}
+
+header ul.sns__wrapper {
+    display: none;
+}
+
+/* NAV */
+
+nav {
+    display: none;
+}
